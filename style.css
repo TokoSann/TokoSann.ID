@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background: radial-gradient(circle at top, #001f2f, #000);
+    color:white;
+    text-align:center;
+}
+
+.container{
+    padding:20px;
+    max-width:500px;
+    margin:auto;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;      /* HARUS sama biar jadi lingkaran */
+  border-radius: 50%;
+  object-fit: cover; /* biar gak gepeng */
+  display: block;
+  margin: 20px auto;
+}
+
+h1{
+    margin:15px 0 5px;
+}
+
+.subtitle{
+    color:#ccc;
+    margin-bottom:15px;
+}
+
+.social img{
+    width:35px;
+    margin:8px;
+    transition:0.3s;
+}
+
+.social img:hover{
+    transform:scale(1.2);
+}
+
+.btn{
+    display:block;
+    padding:15px;
+    margin:10px 0;
+    border-radius:15px;
+    background:linear-gradient(45deg, #00f5ff, #00ff99);
+  
